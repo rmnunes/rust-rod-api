@@ -1,0 +1,15 @@
+GET /ping
+Host: localhost:8080
+
+###
+GET /1
+Host: localhost:8080
+
+###
+POST /
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "name": "rod"
+}
